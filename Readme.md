@@ -10,3 +10,7 @@ Once the application is complete, please upload it to a public GitHub repository
 
 ### NOTE
 This project has been set up with Vue3 (Not Nuxt 3) and Nest.js with Graphql. It has a hello world graphql and REST endpoint.# Blogs
+# Blogs
+# Blogs
+# Blogs
+# Blogs
