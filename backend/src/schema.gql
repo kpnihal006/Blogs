@@ -1,0 +1,36 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type HelloWorldModel {
+  value: String!
+}
+
+type BlogModel {
+  id: Int!
+  title: String!
+  author: String!
+  blogSlug: String!
+  userEmail: String!
+}
+
+type Query {
+  sayHello: HelloWorldModel!
+  sayBlog: [BlogModel!]!
+  sayBlogByUser(userEmail: String!): [BlogModel!]!
+}
+
+type Mutation {
+  createBlog(createBlogInput: CreateBlogInput!): BlogModel!
+}
+
+input CreateBlogInput {
+  title: String!
+  author: String!
+  blogSlug: String!
+  userEmail: String!
+}
+
+type Subscription {
+  newBlogNotify: BlogModel!
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rpgassignment-dev-75613-authRole",
+      "UnauthRoleArn": "arn:aws:iam::111042631562:role/amplify-rpgassignment-dev-75613-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::111042631562:role/amplify-rpgassignment-dev-75613-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-rpgassignment-dev-75613-deployment",
+      "UnauthRoleName": "amplify-rpgassignment-dev-75613-unauthRole",
+      "StackName": "amplify-rpgassignment-dev-75613",
+      "StackId": "arn:aws:cloudformation:us-east-1:111042631562:stack/amplify-rpgassignment-dev-75613/d0d04560-21ed-11ee-a1c9-0e1490a96f3f",
+      "AmplifyAppId": "d3ti1bptojrxnd"
+    },
+    "categories": {
+      "auth": {
+        "rpgassignment20b92401": {}
+      }
+    }
+  }
+}
